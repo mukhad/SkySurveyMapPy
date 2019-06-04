@@ -15,11 +15,7 @@ dec = np.ndarray(n, dtype=np.float32)  # list()  # 1
 t = np.ndarray(n, dtype=np.float32)  # list()
 t2 = np.ndarray(n, dtype=np.float32)  # list()
 
-file_name = "data/s56ellips_SS5019_data09-04-2012.txt"
-
-#file_name = "data/urans56ellips_SS5019_data09-04-2012_1.txt"
-
-#file_name = "tmp/exmpl.txt"
+file_name = "tmp/exmpl.txt"
 
 desc = os.path.basename(file_name)
 
